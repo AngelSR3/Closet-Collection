@@ -23,7 +23,7 @@ footer{
     width: 20%;
     height: 0vh;
     margin-bottom: 10%;
-    margin-top: 50%;
+    margin-top: 80%;
 }
 #autor{
     padding: 0px;
@@ -48,8 +48,9 @@ main{
     color: white;
     border-radius: 50px;
     width: 95vw;
-    height: 80vh;
+    height: 115vh;
     background-color: rgb(196, 165, 137);;
+    scrollbar-width: 50vw;
 }
 .productos h2{
     margin-left: 5%;
@@ -118,4 +119,63 @@ main{
 .cajas2 a{
     font-size: normal;
     text-decoration: none;
+}
+.cajas3{
+    display: flex;
+    flex-direction: row;
+    column-gap: 0vw;
+    z-index: 10000000;
+}
+.cajas3 div{
+    width: 20%;
+    height: 30vh;
+    background-color: rgb(235, 202, 158);
+    margin-left: 4%;
+    border-radius: 10%;
+}
+.cajas3 img{
+    border-radius: 10%;
+    width: 100%;
+    height: 70%;
+}
+.cajas3 h1{
+    width: 95%;
+    padding: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: black;
+    margin: 3%;
+    margin-right: 3%;
+    font-size: small;
+}
+.cajas3 a{
+    font-size: normal;
+    text-decoration: none;
+}
+.productos2{
+    margin-left: 3%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    border-radius: 50px;
+    width: 95vw;
+    height: 40vh;
+    background-color: rgb(196, 165, 137);;
+    scrollbar-width: 50vw;
+}
+.productos2 h2{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.cajas2 div{
+    width: 20%;
+    height: 30vh;
+    background-color: rgb(235, 202, 158);
+    margin-left: 4%;
+    border-radius: 6%;
+}
+.footer2{
+    width: 20%;
+    height: 10vh;
+    margin-bottom: 10%;
+    margin-top: 0%;
 }
