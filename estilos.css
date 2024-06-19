@@ -21,7 +21,7 @@ header img{
 }
 footer{
     width: 20%;
-    height: 100vh;
+    height: 0vh;
     margin-bottom: 10%;
     margin-top: 50%;
 }
@@ -33,7 +33,7 @@ footer{
 }
 main{
     display: flex;
-    width: 95vw;
+    width: 100%;
     height: 60vh;
     padding: 0%;
     z-index: 1000;
@@ -48,20 +48,25 @@ main{
     color: white;
     border-radius: 50px;
     width: 95vw;
-    height: 60vh;
+    height: 80vh;
     background-color: rgb(196, 165, 137);;
 }
 .productos h2{
     margin-left: 5%;
+    margin-right: 5%;
 }
 .cajas{
-    display: grid;
-    background-color: white;
-    width: 20%;
-    height: 55%;
-    margin-left: 5%;
-    border-radius: 10%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 0vw;
     z-index: 10000000;
+}
+.cajas div{
+    width: 20%;
+    height: 30vh;
+    background-color: rgb(235, 202, 158);
+    margin-left: 4%;
+    border-radius: 10%;
 }
 .cajas img{
     border-radius: 10%;
@@ -69,10 +74,48 @@ main{
     height: 70%;
 }
 .cajas h1{
+    width: 95%;
     padding: 0%;
     margin-top: 0%;
     margin-bottom: 0%;
-    width: 20%;
     color: black;
-
+    margin: 3%;
+    margin-right: 3%;
+    font-size: small;
+}
+.cajas a{
+    font-size: normal;
+    text-decoration: none;
+}
+.cajas2{
+    display: flex;
+    flex-direction: row;
+    column-gap: 0vw;
+    z-index: 10000000;
+}
+.cajas2 div{
+    width: 20%;
+    height: 30vh;
+    background-color: rgb(235, 202, 158);
+    margin-left: 4%;
+    border-radius: 10%;
+}
+.cajas2 img{
+    border-radius: 10%;
+    width: 100%;
+    height: 70%;
+}
+.cajas2 h1{
+    width: 95%;
+    padding: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: black;
+    margin: 3%;
+    margin-right: 3%;
+    font-size: small;
+}
+.cajas2 a{
+    font-size: normal;
+    text-decoration: none;
 }
