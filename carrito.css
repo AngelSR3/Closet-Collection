@@ -1,0 +1,120 @@
+body {
+    background-color: rgb(245, 219, 185);
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Grande', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header img {
+    width: 15vw;
+    display: block;
+    margin: 10px auto;
+}
+
+.nav-bar {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-bar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav-bar a:hover {
+    color: #a0522d;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    box-sizing: border-box;
+}
+
+#carrito-container {
+    flex: 1;
+    padding: 20px;
+    background-color: rgb(196, 165, 137);
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.producto-en-carrito {
+    background-color: rgb(235, 202, 158);
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.producto-en-carrito h3 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.producto-en-carrito span {
+    font-size: 1.1rem;
+}
+
+.producto-en-carrito button {
+    background-color: rgb(128, 107, 79);
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.producto-en-carrito button:hover {
+    background-color: #a0522d;
+}
+
+.carrito-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#vaciar-carrito, #checkout {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#vaciar-carrito:hover, #checkout:hover {
+    background-color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #333;
+    color: white;
+    width: 100%;
+}

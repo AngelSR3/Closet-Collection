@@ -1,29 +1,41 @@
-# 📋 Closeth Collection
+# Closeth Collection 👗👚
 
-Tienda basica de ropa
+## Descripción
 
-## 🗂️ Tabla de Contenidos
+**Closeth Collection** es una aplicación web basica que simula una tienda online de ropa, con carrito de compras. La aplicación ofrece una experiencia de compra amigable con un diseño atractivo. Los usuarios pueden ver diferentes categorías de productos, como abrigos, camisetas y pantalones.
 
-- [Instalación](#instalación)
-- [Uso](#uso)
-- [Características](#características)
-- [Contribuciones](#contribuciones)
-- [Licencia](#licencia)
+## Características
 
-## 🛠️ Instalación
+- **Explorar Productos:** Los usuarios pueden ver una variedad de productos divididos en categorías como abrigos, camisetas y pantalones.
+- **Ver Carrito de Compras:** Los usuarios pueden revisar los productos que han agregado al carrito y proceder al pago.
+- **Interfaz Responsive:** La aplicación es completamente responsive, adaptándose a diferentes tamaños de pantalla.
 
-Sigue estos pasos para instalar el proyecto en tu máquina local.
+## Tecnologías Utilizadas
 
-```bash
-# Clona el repositorio
-git clone [https://github.com/tu_usuario/nombre_del_repositorio.git](https://github.com/AngelSR3/Closet-Collection)
-```
-  
-🤝 Autor
-  Autor: Angel Simanca
-  Contacto: 3023562082
+- **HTML:** Estructura y contenido de la aplicación.
+- **CSS:** Estilos y diseño de la aplicación.
 
-Cuenta con 3 secciones de productos y 12 productos en total
+## Uso
 
-lenguajes utilizados: Html y css puro
+- **Explorar Productos:** Navega por las diferentes categorías de productos como abrigos, camisetas y pantalones.
+- **Agregar al Carrito:** Haz clic en el botón "Agregar al carrito" junto al producto que deseas comprar.
+- **Ver Carrito:** Haz clic en el enlace "Carrito" en el menú lateral para ver los productos en tu carrito de compras.
 
+## Estructura de Archivos
+
+La aplicación contiene los siguientes archivos:
+
+- **`index.html`**: Página principal donde se muestran los productos.
+- **`carrito.html`**: Página del carrito de compras.
+- **`estilos.css`**: Archivo CSS que contiene los estilos de la aplicación.
+- **`carrito.css`**: Estilos específicos para la página del carrito de compras.
+- **`Imagenes`**: Carpeta con el logo de la tienda.
+
+## Contacto 🙋‍♂️
+
+- **Email:** angelduvan1016@gmail.com
+- **Telefono:** +57 3023562082
+- **Github:** https://github.com/AngelSR3
+- **Linkedin:** https://www.linkedin.com/in/angelsr3
+
+## ¡Gracias por ver Closeth Collection! 
